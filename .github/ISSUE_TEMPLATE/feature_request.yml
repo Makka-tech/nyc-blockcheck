@@ -1,0 +1,16 @@
+name: Feature request
+description: Suggest an improvement that helps NYC residents understand public records.
+title: "feature: "
+labels: [enhancement]
+body:
+  - type: textarea
+    attributes:
+      label: Problem to solve
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Proposed approach
+  - type: textarea
+    attributes:
+      label: Data, privacy, or fairness considerations

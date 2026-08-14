@@ -1,0 +1,9 @@
+node_modules
+.next
+*.tsbuildinfo
+out
+coverage
+playwright-report
+test-results
+.env.local
+.env*.local

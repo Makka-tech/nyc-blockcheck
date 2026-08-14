@@ -1,0 +1,19 @@
+name: Data issue
+description: Report a potential source, schema, match, or interpretation issue.
+title: "data: "
+labels: [data]
+body:
+  - type: input
+    attributes:
+      label: Source dataset or URL
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What appears incorrect or incomplete?
+      description: Do not include tenant names or personal information.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Suggested correction or official reference

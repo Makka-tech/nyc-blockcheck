@@ -1,0 +1,44 @@
+{
+  "name": "nyc-blockcheck",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A source-backed pre-move building and block report for New York City residents.",
+  "engines": {
+    "node": ">=20.9"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "next": "16.3.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "zod": "3.24.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.1",
+    "@types/node": "22.15.2",
+    "@types/react": "19.1.2",
+    "@types/react-dom": "19.1.2",
+    "@vitest/coverage-v8": "^3.2.7",
+    "autoprefixer": "10.4.21",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "16.3.0",
+    "jsdom": "26.1.0",
+    "postcss": "^8.5.26",
+    "prettier": "3.5.3",
+    "prettier-plugin-tailwindcss": "0.6.11",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.8.3",
+    "vitest": "^3.2.7"
+  }
+}

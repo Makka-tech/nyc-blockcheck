@@ -1,0 +1,17 @@
+name: Bug report
+description: Report a reproducible problem in NYC BlockCheck.
+title: "bug: "
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: Include steps, expected behavior, and actual behavior. Do not include private information.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Browser and version
+  - type: textarea
+    attributes:
+      label: Screenshots or logs
